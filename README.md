@@ -1,6 +1,6 @@
 We are @Hunnymademanufacturing
 Website : www.hunnymademanufacturing.business.site
-Instagram : www.instagram.com/hunnymademanufacturing
+Instagram : www.instagram.com/hunnymadedesign
 
 Rapid delivery concept art, graphic design and 3d Modeling services
 
