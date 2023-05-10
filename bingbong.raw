@@ -1,0 +1,36 @@
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
+
+alias ai="python ~/bap/scripts/GPT_Terminal/ai.py"
+alias aiedit="nano ~/bap/scripts/GPT_Terminal/ai.py"
+alias aliasedit="nano ~/.config/fish/config.fish"
+alias editalias="nano ~/.config/fish/config.fish"
+alias updatealias="source ~/.config/fish/config.fish"
+alias cls="clear"
+alias clr="clear"
+alias baproot="cd ~/bap"
+alias cron="crontab -e"
+alias env="source venv/bin/activate.fish"
+alias up="cd .."
+alias path="readlink -f"
+alias update="pkg update && pkg upgrade && pkg install python"
+alias all="ls -A"
+#prompt for delete
+alias rm="rm -i"
+#prompt for overwrite on move and copy
+alias mv="mv -i"
+alias cp="cp -i"
+alias vi="vim"
+alias ll="ls -lh"
+#alias ls="ls -ahl"
+alias grep="grep --color=auto"
+alias clean="sudo apt-get clean"
+alias hist="history"
+#disk usage
+alias df="df -Th"
+alias du="du -sh"
+
+set -x PATH $PATH /data/data/com.termux/files/usr/bin
+set -gx OPENAI_API_KEY "here is where you out your jey"
+set PATH $PATH /data/data/com.termux/files/home/.cargo/bin
